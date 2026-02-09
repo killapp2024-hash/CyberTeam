@@ -8,11 +8,17 @@
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 30px 0px;
+}
+.container-shadow{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7)
 }
 .section-title{
     font-size: 30px;
     font-weight: 700;
     color: #65daff;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .section-text{
     font-size: 20px;
@@ -34,6 +40,9 @@ body{
     height: 80px;
     line-height: 80px;
 }
+.menu .container{
+    padding: 0;
+}
 .logo {
     text-decoration: none;
     color: white;
@@ -52,4 +61,152 @@ body{
 .menu-item:hover{
     transform: scale(1.1);
     text-shadow: 0 0 10px white;
+}
+.header {
+    height: 80vh;
+    background: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
+    position: relative;
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    width: 50%;
+}
+.header-title {
+    color: #4e4e4e;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.header-text {
+    color: #505050;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.header-btn{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg,#65d9fd,#70fecb);
+    padding: 25px 75px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.header-btn:hover{
+    transform: scale(1.1);
+}
+.header-btn:active{
+    background: linear-gradient(90deg,#347083,#388065);
+}
+.about{
+    margin-bottom: 500px;
+    text-align: center;
+    margin: 100px 0;
+}
+.about-card {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.about-img {
+    height: 120px;
+    margin-bottom: 50px;
+}
+.about-text {
+    color: #61cff3;
+    font-size: 30px;
+}
+.our-games {
+    text-align: center;
+}
+.container-shadow {
+}
+.our-games-list {
+}
+.game-card {
+}
+.game-card-left {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+.game-card-title {
+    color: #6df5c3;
+    font-size: 30px;
+}
+.game-card-hr {
+    border: 2px solid #6df5c3;
+    width: 30%;
+    margin: 20px 0;
+}
+.game-card-right {
+    width: 49%;
+    display: inline-block;
+    min-height: 350px;
+    height: 100%;
+    background: url("img/csgo.jpg") left/cover no-repeat;
+    
+}
+.second-game-card-left{
+    width: 49%;
+    display: inline-block;
+    min-height: 350px;
+    height: 100%;
+    background: url("img/dota2.jpg") right/cover no-repeat;
+}
+.second-game-card-right{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+.third-game-card-left{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+.third-game-card-right{
+    width: 49%;
+    display: inline-block;
+    min-height: 350px;
+    height: 100%;
+    background: url("img/apex.jpg") right/cover no-repeat;
+}
+.competition-text{
+    color: white;
+    text-align: center;
+}
+.discord {
+
+}
+.discord-hr {
+    width: 30%;
+    margin: 0 auto 50px;
+}
+.discord-box {
+    background-color:#61cff3;
+    padding: 50px 80px;
+}
+.discord-text {
+    color: white;
+    font-weight: bold;
+    font-size: 50px ;
+    line-height: 50px;
+}
+.discord-btn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    float: right;
+}
+.discord .container{
+    padding: 30px ;
 }

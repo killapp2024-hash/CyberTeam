@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-shadow{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7)
+}
+
+body{
+    background-color: #222222;
+    color: white;
+}
+.form {
+    background-color: #222222;
+    max-width: 1000px ;
+    margin: 100px auto;
+}
+.form-header {
+    background-color: #61cff3;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+.back_button {
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+}
+.back_button:hover{
+    background-color: gray;
+}
+.form-title {
+}
+.form-body {
+    padding: 50px;
+}
+.name {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    color: white;
+}
+fieldset{
+    padding: 40px;
+}
+.gender {
+    margin: 30px 0;
+}
+.wrapper {
+    margin-bottom: 30px;
+}
+.wrapper input{
+
+}
+.wrapper label{
+    margin: 0 30px 0 10px;
+}
+textarea{
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    color: white;
+    padding: 20px;
+}
+button{
+    display: block;
+    padding: 20px 60px;
+    margin: 30px auto 0px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg,#65d9fd,#70fecb);
+    transition: 0.3s;
+    color: white;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    background: linear-gradient(90deg,#347083,#388065);
+}
